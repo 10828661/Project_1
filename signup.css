@@ -1,0 +1,59 @@
+BODY{
+    font-family: 'Museo Sans',Arial, Helvetica, sans-serif;
+    background: url(f8f8759b756dd864cab9b61d1e8f1775.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(109, 110, 112);
+    font-size: 120%;
+    line-height: 1.25;
+    margin-bottom: 0px;
+    margin-left: 350;
+}
+html{
+    height: 100%;
+}
+.container{
+    padding: 20px;
+    width: 600px;
+    height: 700px;
+    color: whitesmoke;
+    background: transparent; 
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+input[type=text],input[type=text],input[type=email],input[type=password],input[type=password]{
+    width: 300px;
+    height: 5px;
+    padding: 15px;
+    margin: 10px 0 22px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px
+} 
+input[type=text]:focus,input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.registerbtn{
+    background-color: turquoise;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
+a{
+    color: blue;
+}
+.login{
+    background-color: whitesmoke;
+    text-align: center;
+}

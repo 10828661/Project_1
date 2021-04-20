@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(the-hunger-games-5120x2880-mockingjay-part-2-best-movies-effi-trinket-8169.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+html{
+    height: 100%;
+}
+.container{
+    width: 320px;
+    height: 420px;
+    background:rgb(25, 25, 53);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 15px;
+    border-radius: 20px;
+}
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;  
+}
+
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.container input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+.container input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
